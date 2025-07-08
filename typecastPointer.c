@@ -13,4 +13,4 @@ printf("uintptr_t castptr = 0x%lx\n",castptr);
 printf("cptr = %p\n",(void*)cptr);
 printf("m = 0x%x\n",m);
  return 0;  
-}       
+}           
