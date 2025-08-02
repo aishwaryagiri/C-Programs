@@ -7,7 +7,7 @@ int main()
          f(argv[0]);
             return 0;
 }
-             void f(char *p)
+             void f(char *p)// in this code we are pointing to the string char*p=agrv[0]
 {
                char *t;               
                    t = (p += sizeof(long))[-1]; // t = p[-1], 
