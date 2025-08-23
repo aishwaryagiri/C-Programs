@@ -6,6 +6,7 @@ void myFunc1()
 {
     static int count = 0;
     count = count+1;
+    printf("%d",count);
 
 }
 
